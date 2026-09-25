@@ -30,5 +30,4 @@ Cualquier hosting estático sirve (GitHub Pages, Vercel, Netlify): la raíz del 
 
 - [x] WhatsApp e Instagram en el diálogo de contacto.
 - [ ] Mail de contacto (opcional; hoy no hay botón de mail).
-- [ ] Confirmar qué es "PASA" en "PASA Lima 2027".
 - [ ] Puestos de Sarasota 2024, Mondello y Barcelona (hoy se muestran con el ícono de ola).
