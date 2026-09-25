@@ -2,7 +2,7 @@
 
 Dossier web de Santino Basaldella, atleta argentino de SUP Race. Página única en HTML, CSS y JS vanilla, sin dependencias ni build.
 
-Publicado en **https://santino-bassaldela.vercel.app** (Vercel, se actualiza con cada push a `main`).
+Publicado en **https://santino-basaldella.vercel.app** (Vercel, se actualiza con cada push a `main`).
 
 ## Estructura
 
