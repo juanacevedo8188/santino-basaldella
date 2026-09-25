@@ -12,6 +12,7 @@ const EN = {
   'hero.bottom': 'DOUBLE GOLD · ODESUR GAMES 2026<br><strong>Sprint and technical race. Qualified for PASA Lima 2027.</strong>',
   'hero.stat1': 'ARGENTINE<br>CHAMPION',
   'hero.stat2': 'WORLD<br>CHAMPIONSHIPS',
+  ticker: '<span>DOUBLE GOLD · ODESUR 2026</span><span>QUALIFIED FOR PASA LIMA 2027</span><span>5× ARGENTINE CHAMPION</span><span>PAN AMERICAN BRONZE · SANTIAGO 2023</span><span>5 WORLD CHAMPIONSHIPS</span>',
   'latest.caption': 'TWO GOLDS. THE SAME PASSION.',
   'latest.eyebrow': 'LATEST RESULTS',
   'latest.title': 'THE PRESENT<br>SHINES <em>GOLD.</em>',
