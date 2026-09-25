@@ -75,7 +75,6 @@ const EN = {
   'dialog.eyebrow': 'LET’S TEAM UP',
   'dialog.title': 'A STORY<br>TO <em>SHARE.</em>',
   'dialog.text': 'Race presence, content and real experiences on the water. The starting point for a tailor-made partnership.',
-  'dialog.mail': 'Email me <span aria-hidden="true">↗</span>',
   'dialog.back': 'Back to the dossier <span aria-hidden="true">↗</span>',
   'alt.hero': 'Santino with his two ODESUR 2026 gold medals',
   'alt.victory': 'Santino celebrating on his board at the 2026 ODESUR Games',

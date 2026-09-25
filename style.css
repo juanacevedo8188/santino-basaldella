@@ -223,3 +223,4 @@ dialog p:not(.eyebrow){font-size:16px;line-height:1.6;margin:20px 0}
  .ticker-track,.hero-bottom:before{animation:none}
  .primary,.primary span,.site-nav a:after{transition:none}
 }
+.site-footer a{color:var(--lime);text-decoration:none}.site-footer a:hover{text-decoration:underline}
