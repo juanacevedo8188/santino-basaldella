@@ -1,16 +1,17 @@
-// Menú: marca la sección que está en pantalla.
+// Menú: marca la sección que está en pantalla. Una sección sin botón propio
+// puede indicar cuál marcar con data-nav (ej.: data-nav="equipo").
 const links = [...document.querySelectorAll('.site-nav a')];
-const sections = links.map(link => document.querySelector(link.getAttribute('href')));
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (!entry.isIntersecting) return;
+    const target = '#' + (entry.target.dataset.nav || entry.target.id);
     links.forEach(link => {
-      if (link.getAttribute('href') === '#' + entry.target.id) link.setAttribute('aria-current', 'location');
+      if (link.getAttribute('href') === target) link.setAttribute('aria-current', 'location');
       else link.removeAttribute('aria-current');
     });
   });
 }, { rootMargin: '-45% 0px -50% 0px' });
-sections.forEach(section => observer.observe(section));
+document.querySelectorAll('main > section').forEach(section => observer.observe(section));
 
 // Sombra del encabezado al bajar.
 const header = document.querySelector('.header');

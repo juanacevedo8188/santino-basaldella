@@ -64,6 +64,11 @@ const EN = {
         <article><b>17</b><div><h3>Years old at his first Pan American Games</h3><p>Santiago 2023 · Bronze medal</p></div></article>
       `,
   waterman: '<p class="eyebrow">BEYOND THE RACE</p><h2>MY PLACE.<br><em>IN ANY</em><br>FORM.</h2><p>Water isn’t just where I compete. It’s where I learn, explore and find new ways to go a little further.</p><p>SUP Race, windsurf, windfoil, foil, SUP foil and surf. Different disciplines. One connection.</p><div class="water-tags"><span>COMPETE</span><span>EXPLORE</span><span>SHARE</span></div><figure class="water-extra"><img src="assets/surf-ola.jpeg" alt="Santino dropping into a wave" loading="lazy"><figcaption>SURF · ANOTHER WAY TO READ THE WATER</figcaption></figure>',
+  'coach.eyebrow': 'BEHIND EVERY RESULT',
+  'coach.title': 'NOBODY PADDLES<br><em>ALONE.</em>',
+  'coach.text': 'Every podium starts long before the start line: on the water, session after session, alongside his coach. Fitness, technique and race strategy to compete at the highest level.',
+  'coach.tags': '<span>TRAINING</span><span>TECHNIQUE</span><span>STRATEGY</span>',
+  'coach.caption': 'SANTINO AND HIS COACH.',
   'sponsors.eyebrow': 'WHAT’S NEXT, WE BUILD TOGETHER',
   'sponsors.title': 'MUCH MORE<br>THAN A <em>LOGO.</em>',
   'sponsors.intro': 'Two golds at ODESUR and qualifying for the Lima 2027 Pan American Games open a new chapter. I’m looking for brands that share my way of living the sport, to build what comes next together.',
@@ -88,6 +93,7 @@ const EN = {
   'alt.technical': 'Santino rounding a buoy on his Flying Fish board during the ODESUR technical race',
   'alt.medal': 'Santino with the Argentine flag, a medal and a trophy',
   'alt.surf': 'Santino surfing a wave',
+  'alt.coach': 'Santino and his coach standing with their boards and paddles by the water',
   'alt.board': 'Santino standing on his Flying Fish board at sunset'
 };
 
