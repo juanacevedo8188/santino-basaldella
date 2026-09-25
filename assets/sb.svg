@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-30 0 142 66" role="img" aria-label="SB">
+ <g transform="skewX(-16) translate(12 0)" fill="none" stroke="#152b23" stroke-width="12" stroke-linejoin="miter" stroke-linecap="butt">
+  <path d="M42 8 H14 L7 15 V26 L14 33 H33 L40 40 V51 L33 58 H4"/>
+  <path d="M57 2 V64 M57 8 H85 L92 15 V24 L85 31 H57 M57 31 H88 L95 38 V51 L88 58 H57"/>
+ </g>
+ <g fill="#6b8b19"><path d="M-28 20 H0 L-2 26 H-28 Z"/><path d="M-20 33 H-3 L-5 39 H-20 Z"/><path d="M-26 46 H-7 L-9 52 H-26 Z"/></g>
+</svg>

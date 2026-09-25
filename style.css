@@ -169,3 +169,5 @@ dialog p:not(.eyebrow){font-size:16px;line-height:1.6;margin:20px 0}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 .results-list b.no-rank{display:flex;align-items:center;color:#8aa33a}
+.brand-mark{height:40px;width:auto}
+@media(max-width:760px){.brand-mark{height:32px}}
