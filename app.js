@@ -54,6 +54,31 @@ if (motion) {
   });
 }
 
+// "En números": formato según idioma (12,3K / 12.3K) y conteo al aparecer.
+function formatCount(el, value) {
+  let text = value.toFixed(Number(el.dataset.dec) || 0);
+  if (root.lang !== 'en') text = text.replace('.', ',');
+  el.textContent = text + (el.dataset.suffix || '');
+}
+const counters = [...document.querySelectorAll('[data-count]')];
+const showFinal = () => counters.forEach(el => formatCount(el, Number(el.dataset.count)));
+document.addEventListener('DOMContentLoaded', showFinal);
+document.querySelectorAll('[data-lang]').forEach(b => b.addEventListener('click', () => setTimeout(showFinal)));
+if (motion) {
+  const countIn = new IntersectionObserver(entries => entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    countIn.unobserve(entry.target);
+    const els = entry.target.querySelectorAll('[data-count]'), start = performance.now() + 250, dur = 1200;
+    const tick = now => {
+      const t = Math.min(1, Math.max(0, (now - start) / dur)), k = 1 - Math.pow(1 - t, 3);
+      els.forEach(el => formatCount(el, Number(el.dataset.count) * k));
+      if (t < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  }), { threshold: 0.4 });
+  document.querySelectorAll('.numbers').forEach(el => countIn.observe(el));
+}
+
 // Pestañas de resultados.
 const tabs = [...document.querySelectorAll('[role="tab"]')];
 function selectTab(tab){ tabs.forEach(item => {const active=item===tab;item.setAttribute('aria-selected',String(active));item.tabIndex=active?0:-1;const panel=document.getElementById(item.getAttribute('aria-controls'));panel.hidden=!active;if(active)play(panel);}); }
